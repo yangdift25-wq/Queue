@@ -1,9 +1,9 @@
 #pragma once
-typedef int QDataType;
+typedef int QDataType;//如果要层序遍历就换成BTNode*
 //队列结点结构
 typedef struct QueueNode
 {
-int val;
+QDataType val;
 struct QueueNode* next;
 }QNode;
 //队列结构
